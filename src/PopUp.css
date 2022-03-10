@@ -1,0 +1,19 @@
+.mainPopUp{
+    width: 425px;
+    height: 233px;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+    box-shadow: 10px 10px 5px black;
+    margin-top: 278px;
+    margin-left: 420px;
+}
+.popUp{
+    padding: 73px;
+    padding-left: 100px;
+    align-items: center;
+    color: green;
+    font-size: 1.4rem;
+    font-weight: 600;
+}

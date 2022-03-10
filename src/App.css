@@ -1,0 +1,21 @@
+.main{
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 15%;
+  text-align: center;
+}
+.grid-container {
+  background-color: #FF5733;
+  padding: 10px;
+  column-gap: 8px;
+  row-gap: 8px;
+}
+.grid-item {
+  justify-content: center;
+  align-items: center;
+  background-color: #D3D3D3;
+  border: 1px solid red;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
