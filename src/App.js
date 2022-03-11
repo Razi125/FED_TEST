@@ -15,7 +15,7 @@ function App() {
     setGridLayout(value)
     const length = value * value;
     const numbersArray = [];
-    Array.apply(null, { length: length }).map((num, index) => {
+    Array.apply(null, { length: length }).map(( index) => {
       numbersArray.push(parseInt(index) + 1)
     }
     )
