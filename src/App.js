@@ -15,7 +15,7 @@ function App() {
     setGridLayout(value)
     const length = value * value;
     const numbersArray = [];
-    Array.apply(null, { length: length }).map(( index) => {
+    Array.apply(null, { length: length }).map((num, index) => {
       numbersArray.push(parseInt(index) + 1)
     }
     )
@@ -42,6 +42,7 @@ function App() {
       if (isSorted === true) {
         setSorted(isSorted)
       }
+      
     }
   };
 
